@@ -6,7 +6,7 @@ import java.time.Instant;
 import java.time.LocalDateTime;
 
 @SuppressWarnings("unused")
-@Converter(autoApply = false)
+//@Converter(autoApply = false)
 class LocalDateTimeIntoLongConverter implements AttributeConverter<LocalDateTime, Long> {
 
     @Override

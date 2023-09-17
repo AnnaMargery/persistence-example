@@ -7,7 +7,7 @@ import java.time.Instant;
 import java.time.LocalDateTime;
 
 @SuppressWarnings("unused")
-@Converter(autoApply = false)
+//@Converter(autoApply = false)
 class LocalDateTimeIntoTimestampConverter implements AttributeConverter<LocalDateTime, Timestamp> {
 
     @Override
